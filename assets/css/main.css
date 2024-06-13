@@ -1,5 +1,5 @@
 body {
-  background-image: url('/assets/images/bg-pc.png');
+  background-image: url('https://f8betsite.github.io/CSKH001/assets/images/bg-pc.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -80,7 +80,7 @@ category button
 .category-button-list {
   width: 20%;
   /*  background-image: url('./assets/images/bg-category-button.png');*/
-  background-image: url('./assets/images/bg-category-button.png');
+  background-image: url('https://f8betsite.github.io/CSKH001/assets/images/bg-category-button.png');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
