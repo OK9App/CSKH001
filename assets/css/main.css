@@ -1,5 +1,5 @@
 body {
-  background-image: url('https://f8betsite.github.io/CSKH001/assets/images/bg-pc.png');
+  background-image: url(/assets/images/bg-pc.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -41,7 +41,6 @@ f8 logo
   display: none;
   width: 85%;
 }
-
 .logo-img-mobie,
 .logo-title-mobie {
   display: none;
@@ -76,11 +75,9 @@ category button
   margin-top: 10px;
   column-gap: 1%;
 }
-
 .category-button-list {
   width: 20%;
-  /*  background-image: url('./assets/images/bg-category-button.png');*/
-  background-image: url('https://f8betsite.github.io/CSKH001/assets/images/bg-category-button.png');
+  background-image: url(/assets/images/bg-category-button.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -104,12 +101,10 @@ category button
   align-items: center;
   cursor: pointer;
 }
-
 .icon-category-button {
   margin-right: 7%;
   width: 24%;
 }
-
 .content-category-button {
   text-decoration: none;
   font-size: 16px;
@@ -129,7 +124,6 @@ list button
   margin-top: 10px;
   /* column-gap: calc(2% + 10px); */
 }
-
 .list-button-item {
   width: calc(9% - 5px);
   margin: 5px 0;
@@ -143,7 +137,6 @@ list button
   transform: translateY(5px);
   transition: 0.5s all;
 }
-
 .list-button-item:not(:hover) {
   transition: 0.5s all;
 }
@@ -151,7 +144,6 @@ list button
 .icon-list-button {
   height: 70px;
 }
-
 .content-list-button {
   font-size: 14px;
   font-weight: 700;
@@ -171,7 +163,6 @@ f8 footer
   width: 100%;
   margin: 10px;
 }
-
 .footer-title,
 .footer-img {
   width: 50%;
@@ -187,7 +178,6 @@ f8 footer
   color: #0053e0;
   text-transform: uppercase;
 }
-
 .footer-img {
   text-align: left;
 }
@@ -205,24 +195,23 @@ f8 footer
   width: 40%;
 }
 
-@media screen and (max-width: 1400px) {}
+@media screen and (max-width: 1400px) {
+}
 
 @media screen and (max-width: 1200px) {
   .list-button-item {
     width: calc(10% - 5px);
     margin: 5px 0;
-  }
+}
 }
 
 @media screen and (max-width: 992px) {
   .content-category-button {
     font-size: 14px;
   }
-
   .content-list-button {
     font-size: 12px;
   }
-
   .icon-list-button {
     height: 60px;
   }
@@ -232,11 +221,9 @@ f8 footer
   .logo-title {
     width: 80%;
   }
-
   .banner-pc {
     width: 38%;
   }
-
   .content-category-button {
     font-size: 16px;
   }
@@ -245,7 +232,6 @@ f8 footer
     width: 37%;
     margin: 6px 4px;
   }
-
   .icon-category-button {
     width: 22%;
   }
@@ -257,15 +243,12 @@ f8 footer
   .icon-list-button {
     height: 70px;
   }
-
   .content-list-button {
     font-size: 14px;
   }
-
   .footer-title p {
     font-size: 12px;
   }
-
   .footer-img img {
     width: 60%;
   }
@@ -275,30 +258,25 @@ f8 footer
   .banner-pc {
     display: none;
   }
-
   .banner-mobie {
     display: block;
     width: 85%;
     margin: 0 15px;
   }
-
   .logo-img,
   .logo-title {
     display: none;
   }
-
   .logo-img-mobie {
     display: block;
     width: 90%;
     margin-bottom: 15px;
   }
-
   .logo-title-mobie {
     display: none;
     width: 90%;
     margin-bottom: 10px;
   }
-
   .content-category-button {
     font-size: 14px;
   }
@@ -306,7 +284,6 @@ f8 footer
   .icon-list-button {
     height: 55px;
   }
-
   .content-list-button {
     font-size: 12px;
   }
@@ -315,26 +292,21 @@ f8 footer
   .f8-footer {
     margin-top: 10px;
   }
-
   .f8-footer {
     flex-direction: column;
   }
-
   .footer-title,
   .footer-img {
     width: 100%;
     margin: 5px 0;
   }
-
   .footer-title p {
     text-align: center;
     font-size: 12px;
   }
-
   .footer-img {
     text-align: center;
   }
-
   .footer-img img {
     width: 50%;
   }
@@ -345,39 +317,32 @@ f8 footer
   .logo-img-mobie {
     width: 80%;
   }
-
   .logo-title-mobie {
     width: 80%;
   }
-
   .banner-mobie {
     width: 65%;
   }
-
   .category-button-list {
     width: 45%;
   }
-
   .category-button-list {
     width: 42%;
   }
-
   .icon-category-button {
     width: 25%;
   }
-
+ 
   .content-category-button {
     font-size: 12px;
   }
-
   .list-button-item {
     width: 19%;
   }
-
   .content-list-button {
     font-size: 10px;
   }
-
+ 
   .footer-img img {
     width: 45%;
   }
@@ -387,7 +352,6 @@ f8 footer
   .f8-logo {
     margin-top: 10px;
   }
-
   .category-button {
     margin-top: 5px;
 
@@ -400,12 +364,9 @@ f8 footer
   .banner-mobie {
     width: 50%;
   }
-
-  .list-button,
-  .f8-footer {
+  .list-button, .f8-footer {
     margin-top: 5px;
   }
-
   .list-button-item {
     margin: 5px 0;
   }
@@ -413,11 +374,9 @@ f8 footer
   .footer-title p {
     font-size: 12px;
   }
-
   .content-category-button {
     font-size: 12px;
-  }
-
+}
   .icon-list-button {
     height: 45px;
   }
