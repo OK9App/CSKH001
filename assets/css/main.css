@@ -54,6 +54,7 @@ f8 banner
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 30px;
 }
 
 .banner-pc {
@@ -127,7 +128,6 @@ list button
   width: 100%;
   margin-top: 10px;
   height: 105px;
-  /* column-gap: calc(2% + 10px); */
 }
 
 .list-button-item {
@@ -231,6 +231,11 @@ f8 footer
 }
 
 @media screen and (max-width: 768px) {
+  .f8-banner {
+    padding-top: 0px;
+    margin-top: 15px;
+  }
+
   .logo-title {
     width: 80%;
   }
@@ -446,7 +451,7 @@ f8 footer
   display: flex;
   justify-content: space-around;
   gap: 20px;
-  max-width: 800px;
+  max-width: 900px;
   width: 100%;
   margin: auto;
 }
@@ -523,7 +528,7 @@ f8 footer
   }
 
   .section-right {
-    padding-top: 5vw;
+    padding-top: 2.5vw;
   }
 
   .section-right .btn-download {
