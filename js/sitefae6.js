@@ -4,16 +4,7 @@
 // Write your JavaScript code.
 
 let listLinks = [
-    "https://ok914.com",
-    "https://ok915.com",
-    "https://ok924.com",
-    "https://ok925.com",
-    "https://ok926.com",
-    "https://ok930.com",
-    "https://ok931.com",
-    "https://ok932.com",
-    "https://ok934.com",
-    "https://ok935.com",
+    "https://ok9vip9.com/trangchu",
 ];
 
 
