@@ -76,6 +76,7 @@ category button
   width: 100%;
   margin-top: 10px;
   column-gap: 1%;
+  gap: 80px;
 }
 
 .category-button-list {
@@ -88,6 +89,7 @@ category button
   border-radius: 50px;
   padding: 1px;
   border: 2px solid #5c5757be;
+  margin-bottom: 5px;
 }
 
 .category-button-list:hover {
@@ -113,7 +115,7 @@ category button
 .content-category-button {
   text-decoration: none;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
   color: #fff;
 }
 
@@ -207,8 +209,7 @@ f8 footer
   width: 40%;
 }
 
-@media screen and (max-width: 1400px) {
-}
+@media screen and (max-width: 1400px) {}
 
 @media screen and (max-width: 1200px) {
   .list-button-item {
@@ -277,6 +278,10 @@ f8 footer
   .footer-img img {
     width: 60%;
   }
+
+  .category-button {
+    gap: 25px;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -308,7 +313,7 @@ f8 footer
   }
 
   .content-category-button {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .icon-list-button {
@@ -316,7 +321,7 @@ f8 footer
   }
 
   .category-button-list {
-    width: 28%;
+    width: 35%;
   }
 
   .content-list-button {
@@ -370,7 +375,8 @@ f8 footer
   }
 
   .content-category-button {
-    font-size: 10px;
+    font-size: 12px;
+    padding-top: 4px;
   }
 
   .list-button-item {
@@ -494,6 +500,7 @@ f8 footer
 
 .section-right .title img {
   width: 100%;
+  max-width: 350px;
 }
 
 .link {
