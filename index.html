@@ -42,8 +42,8 @@
   <!-- CSS -->
 
   <link rel="stylesheet" href="./assets/css/reset.css" />
-  <link rel="stylesheet" href="./assets/css/main.css?v=2.5" />
-  <link rel="stylesheet" href="./assets/css/iframe.css?v=1.7" />
+  <link rel="stylesheet" href="./assets/css/main.css?v=2.9" />
+  <link rel="stylesheet" href="./assets/css/iframe.css?v=3.0" />
   <link rel="stylesheet" href="./assets/css/jquery-ui.css" />
 
   <!-- JS -->
@@ -161,7 +161,7 @@
             position: fixed;
             width: 352px !important;
             background-color: #0053df !important;
-            padding-top: 50px;
+            padding-top: 0px;
             right: 0px;
             bottom: 0px;
             cursor: move;
@@ -274,6 +274,19 @@
       </div>
     </div>
   </div>
+
+  <!-- Start of LiveChat (www.livechat.com) code -->
+  <script>
+    window.__lc = window.__lc || {};
+    window.__lc.license = 14661093;
+    window.__lc.integration_name = "manual_channels";
+    window.__lc.product_name = "livechat";
+    ; (function (n, t, c) { function i(n) { return e._h ? e._h.apply(null, n) : e._q.push(n) } var e = { _q: [], _h: null, _v: "2.0", on: function () { i(["on", c.call(arguments)]) }, once: function () { i(["once", c.call(arguments)]) }, off: function () { i(["off", c.call(arguments)]) }, get: function () { if (!e._h) throw new Error("[LiveChatWidget] You can't use getters before load."); return i(["get", c.call(arguments)]) }, call: function () { i(["call", c.call(arguments)]) }, init: function () { var n = t.createElement("script"); n.async = !0, n.type = "text/javascript", n.src = "https://cdn.livechatinc.com/tracking.js", t.head.appendChild(n) } }; !n.__lc.asyncInit && e.init(), n.LiveChatWidget = n.LiveChatWidget || e }(window, document, [].slice))
+  </script>
+  <noscript><a href="https://www.livechat.com/chat-with/14661093/" rel="nofollow">Chat with us</a>, powered by <a
+      href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
+  <!-- End of LiveChat code -->
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
@@ -354,6 +367,7 @@
       $("#btn-tawk-small").on("click", function () {
         $(this).hide();
         $("#box-iframe").hide();
+        $('#chat-dialog').hide();
       });
 
       $("#draggable .chat-dialog").css("display", "none");
@@ -426,17 +440,7 @@
     }
   </script>
 
-  <!-- Start of LiveChat (www.livechat.com) code -->
-  <script>
-    window.__lc = window.__lc || {};
-    window.__lc.license = 14661093;
-    window.__lc.integration_name = "manual_channels";
-    window.__lc.product_name = "livechat";
-    ; (function (n, t, c) { function i(n) { return e._h ? e._h.apply(null, n) : e._q.push(n) } var e = { _q: [], _h: null, _v: "2.0", on: function () { i(["on", c.call(arguments)]) }, once: function () { i(["once", c.call(arguments)]) }, off: function () { i(["off", c.call(arguments)]) }, get: function () { if (!e._h) throw new Error("[LiveChatWidget] You can't use getters before load."); return i(["get", c.call(arguments)]) }, call: function () { i(["call", c.call(arguments)]) }, init: function () { var n = t.createElement("script"); n.async = !0, n.type = "text/javascript", n.src = "https://cdn.livechatinc.com/tracking.js", t.head.appendChild(n) } }; !n.__lc.asyncInit && e.init(), n.LiveChatWidget = n.LiveChatWidget || e }(window, document, [].slice))
-  </script>
-  <noscript><a href="https://www.livechat.com/chat-with/14661093/" rel="nofollow">Chat with us</a>, powered by <a
-      href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
-  <!-- End of LiveChat code -->
+
 
 </body>
 
