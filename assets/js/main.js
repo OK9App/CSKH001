@@ -18,16 +18,16 @@ $(".close-icon, .sidemenu-overlay").on("click", function () {
     $(".sidemenu-overlay").removeClass("active");
 });
 
-$(".banner_slider").slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    infinite: true,
-    autoplay: true,
-    speed: 500,
-    dots: false,
-    arrows: false,
-    focusOnSelect: true,
-});
+// $(".banner_slider").slick({
+//     slidesToShow: 1,
+//     slidesToScroll: 1,
+//     infinite: true,
+//     autoplay: true,
+//     speed: 500,
+//     dots: false,
+//     arrows: false,
+//     focusOnSelect: true,
+// });
 
 $("#btn-tawk-small").hide();
 
