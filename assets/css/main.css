@@ -13,6 +13,14 @@ body {
   margin: auto;
 }
 
+.dp-pc {
+  display: block;
+}
+
+.dp-mb {
+  display: none;
+}
+
 /*====================
 f8 container
 ====================*/
@@ -176,6 +184,10 @@ f8 footer
   margin: 20px;
 }
 
+.f8-footer.dp-mb {
+  display: none;
+}
+
 .footer-title,
 .footer-img {
   width: 50%;
@@ -233,9 +245,21 @@ f8 footer
 }
 
 @media screen and (max-width: 768px) {
+  .f8-logo a {
+    max-width: 270px;
+  }
+
   .f8-banner {
     padding-top: 0px;
     margin-top: 15px;
+  }
+
+  .f8-footer {
+    
+  }
+
+  .f8-footer.dp-mb {
+    display: flex;
   }
 
   .logo-title {
@@ -251,7 +275,7 @@ f8 footer
   }
 
   .category-button-list {
-    width: 30%;
+    width: 42%;
     margin: 6px 4px;
   }
 
@@ -280,7 +304,15 @@ f8 footer
   }
 
   .category-button {
-    gap: 25px;
+    gap: 3px;
+  }
+
+  .dp-pc {
+    display: none;
+  }
+  
+  .dp-mb {
+    display: block;
   }
 }
 
@@ -321,7 +353,7 @@ f8 footer
   }
 
   .category-button-list {
-    width: 35%;
+    width: 42%;
   }
 
   .content-list-button {
@@ -398,7 +430,7 @@ f8 footer
   }
 
   .category-button {
-    margin-top: 5px;
+    margin-top: 2px;
   }
 
   .logo-img-mobie {
@@ -423,7 +455,7 @@ f8 footer
   }
 
   .content-category-button {
-    font-size: 8px;
+    font-size: 2.5vw;
   }
 
   .icon-list-button {
@@ -542,6 +574,6 @@ f8 footer
   }
 
   .list-button-item {
-    margin-top: 10px;
+    margin-top: 5px;
   }
 }
