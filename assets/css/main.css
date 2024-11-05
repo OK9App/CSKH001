@@ -89,7 +89,7 @@ category button
 
 .category-button-list {
   width: 20%;
-  background-image: url(/assets/images/bg-category-button.png);
+  background-image: url('./../images/bg-category-button.png');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
