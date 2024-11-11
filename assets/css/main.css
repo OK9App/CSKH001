@@ -1,5 +1,5 @@
 body {
-  background-image: url('./../images/bg-pc.png');
+  background-image: url('./../images/bg-ok9.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,9 +22,9 @@ body {
 }
 
 /*====================
-f8 container
+ok9 container
 ====================*/
-.f8-container {
+.ok9-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,13 +32,13 @@ f8 container
 }
 
 /*====================
-f8 logo
+ok9 logo
 ====================*/
-.f8-logo {
+.ok9-logo {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 .logo-img {
@@ -56,9 +56,9 @@ f8 logo
 }
 
 /*====================
-f8 banner
+ok9 banner
 ====================*/
-.f8-banner {
+.ok9-banner {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -82,16 +82,16 @@ category button
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-top: 10px;
+  margin-top: 15px;
   column-gap: 1%;
-  gap: 80px;
+  gap: 20px;
 }
 
 .category-button-list {
-  width: 20%;
+  width: 22%;
   background-image: url('./../images/bg-category-button.png');
   background-position: center;
-  background-size: contain;
+  background-size: 92% 75%;
   background-repeat: no-repeat;
   align-items: center;
   border-radius: 50px;
@@ -101,7 +101,7 @@ category button
 }
 
 .category-button-list:hover {
-  transform: translateY(5px);
+  transform: translateY(-5px);
   transition: 0.5s all;
 }
 
@@ -117,14 +117,15 @@ category button
 
 .icon-category-button {
   margin-right: 7%;
-  width: 24%;
+  width: 22%;
+  margin-left: 20px;
 }
 
 .content-category-button {
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
-  color: #fff;
+  color: #002C14;
 }
 
 /*====================
@@ -138,6 +139,7 @@ list button
   width: 100%;
   margin-top: 10px;
   height: 105px;
+  gap: 25px;
 }
 
 .list-button-item {
@@ -152,7 +154,7 @@ list button
 }
 
 .list-button-item:hover {
-  transform: translateY(5px);
+  transform: translateY(-5px);
   transition: 0.5s all;
 }
 
@@ -161,21 +163,21 @@ list button
 }
 
 .icon-list-button {
-  height: 70px;
+  height: 100px;
 }
 
 .content-list-button {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 700;
   margin-top: 6px;
   letter-spacing: -0.5px;
-  color: #2368dc;
+  color: #016730;
 }
 
 /*====================
-f8 footer
+ok9 footer
 ====================*/
-.f8-footer {
+.ok9-footer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -184,7 +186,7 @@ f8 footer
   margin: 20px;
 }
 
-.f8-footer.dp-mb {
+.ok9-footer.dp-mb {
   display: none;
 }
 
@@ -221,8 +223,6 @@ f8 footer
   width: 40%;
 }
 
-@media screen and (max-width: 1400px) {}
-
 @media screen and (max-width: 1200px) {
   .list-button-item {
     width: calc(10% - 5px);
@@ -245,25 +245,41 @@ f8 footer
 }
 
 @media screen and (max-width: 768px) {
-  .f8-logo a {
-    max-width: 270px;
-  }
-
-  .f8-banner {
-    padding-top: 0px;
+  .ok9-logo {
     margin-top: 15px;
   }
 
-  .f8-footer {
-    
+  .ok9-logo a {
+    max-width: 200px !important;
   }
 
-  .f8-footer.dp-mb {
+  .ok9-banner {
+    padding-top: 0px;
+    margin-top: 5px;
+  }
+
+  .section-right {
+    padding-top: 15px;
+  }
+
+  .section-right .title {
+    margin-bottom: 3px;
+  }
+
+  .ok9-footer.dp-mb {
     display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
-  .logo-title {
-    width: 80%;
+  .logo-title,
+  .footer-img {
+    width: 80% !important;
+  }
+
+  .footer-title,
+  .footer-img {
+    width: 90% !important;
   }
 
   .banner-pc {
@@ -275,12 +291,20 @@ f8 footer
   }
 
   .category-button-list {
-    width: 42%;
+    width: 44% !important;
     margin: 6px 4px;
+    margin-top: 5px !important;
   }
 
   .icon-category-button {
-    width: 22%;
+    width: 22% !important;
+    margin-left: 10px;
+  }
+
+  .icon-category-dl {
+    padding: 10px;
+    box-sizing: border-box;
+    margin-right: 2px;
   }
 
   .list-button-item {
@@ -288,15 +312,15 @@ f8 footer
   }
 
   .icon-list-button {
-    height: 70px;
+    height: 17vw;
   }
 
   .content-list-button {
-    font-size: 14px;
+    font-size: 3.5vw;
   }
 
-  .footer-title p {
-    font-size: 12px;
+  .footer-title img {
+    width: 100%;
   }
 
   .footer-img img {
@@ -305,12 +329,13 @@ f8 footer
 
   .category-button {
     gap: 3px;
+    margin-top: 5px;
   }
 
   .dp-pc {
     display: none;
   }
-  
+
   .dp-mb {
     display: block;
   }
@@ -335,7 +360,7 @@ f8 footer
   .logo-img-mobie {
     display: block;
     width: 90%;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
   }
 
   .logo-title-mobie {
@@ -348,24 +373,20 @@ f8 footer
     font-size: 14px;
   }
 
-  .icon-list-button {
+  /* .icon-list-button {
     height: 55px;
-  }
+  } */
 
   .category-button-list {
     width: 42%;
   }
 
-  .content-list-button {
-    font-size: 12px;
-  }
-
   .list-button,
-  .f8-footer {
-    margin-top: 10px;
+  .ok9-footer {
+    margin-top: 0px;
   }
 
-  .f8-footer {
+  .ok9-footer {
     flex-direction: column;
   }
 
@@ -415,17 +436,13 @@ f8 footer
     width: 19%;
   }
 
-  .content-list-button {
-    font-size: 10px;
-  }
-
   .footer-img img {
     width: 40%;
   }
 }
 
 @media screen and (max-width: 375px) {
-  .f8-logo {
+  .ok9-logo {
     margin-top: 10px;
   }
 
@@ -442,8 +459,8 @@ f8 footer
   }
 
   .list-button,
-  .f8-footer {
-    margin-top: 5px;
+  .ok9-footer {
+    margin-top: 2px;
   }
 
   .list-button-item {
@@ -458,19 +475,19 @@ f8 footer
     font-size: 2.5vw;
   }
 
-  .icon-list-button {
+  /* .icon-list-button {
     height: 45px;
-  }
+  } */
 }
 
 /* CSS */
 
-.f8-logo a {
+.ok9-logo a {
   max-width: 310px;
   width: 100%;
 }
 
-.f8-logo a img {
+.ok9-logo a img {
   width: 100%;
 }
 
@@ -483,8 +500,8 @@ f8 footer
 .section-banner {
   display: flex;
   justify-content: space-around;
-  gap: 20px;
-  max-width: 900px;
+  gap: 5px;
+  max-width: 1000px;
   width: 100%;
   margin: auto;
 }
@@ -499,7 +516,7 @@ f8 footer
 }
 
 .section-right {
-  padding-top: 50px;
+  padding-top: 25px;
   width: 50%;
 }
 
@@ -555,25 +572,73 @@ f8 footer
 
   .list-button {
     height: unset;
+    margin: 3px 0px 5px;
+    overflow: hidden;
+    width: 100%;
+    padding: 0px 20px;
   }
 
   .section-banner {
-    gap: 5px;
+    gap: 0px;
+    flex-direction: column;
+    width: calc(100% - 1.2rem);
+  }
+
+  .section-left {
+    margin-top: 0.5vw;
+    width: 100%;
   }
 
   .section-right {
-    padding-top: 2.5vw;
+    padding-top: 0.5vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -10px;
+  }
+
+  .section-right .title img {
+    max-width: 768px;
   }
 
   .section-right .btn-download {
-    gap: 8px;
-  }
-
-  .section-banner {
-    width: calc(100% - 2rem);
+    gap: 15px;
+    display: flex;
+    flex-direction: unset;
   }
 
   .list-button-item {
     margin-top: 5px;
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .slick-prev {
+    left: 2px;
+  }
+
+  .slick-next {
+    right: 2px;
+  }
+
+  .slick-prev::before {
+    content: url(./../images/arraw-prev.png) !important;
+    position: relative;
+    z-index: 100000;
+    left: 2px;
+    top: -10px;
+    height: 20px;
+    width: 20px;
+  }
+
+  .slick-next::before {
+    content: url(./../images/arraw-next.png) !important;
+    position: relative;
+    z-index: 100000;
+    right: 0px;
+    top: -10px;
+    height: 20px;
+    width: 20px;
   }
 }
