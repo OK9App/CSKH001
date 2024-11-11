@@ -139,7 +139,8 @@ list button
   width: 100%;
   margin-top: 10px;
   height: 105px;
-  gap: 25px;
+  /* gap: 25px; */
+  gap: 35px;
 }
 
 .list-button-item {
@@ -559,6 +560,12 @@ ok9 footer
 .link:hover {
   -webkit-transform: translateY(-5px);
   transform: translateY(-5px);
+}
+
+@media screen and (max-width: 990px) {
+  .list-button {
+    height: unset;
+  }
 }
 
 @media screen and (max-width: 767px) {
