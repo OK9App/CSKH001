@@ -38,11 +38,12 @@ ok9 logo
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 25px;
+  margin-top: 50px;
 }
 
 .logo-img {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
+
 }
 
 .logo-title {
@@ -247,11 +248,11 @@ ok9 footer
 
 @media screen and (max-width: 768px) {
   .ok9-logo {
-    margin-top: 15px;
+    margin-top: 30px;
   }
 
   .ok9-logo a {
-    max-width: 200px !important;
+    max-width: 250px !important;
   }
 
   .ok9-banner {
@@ -444,7 +445,7 @@ ok9 footer
 
 @media screen and (max-width: 375px) {
   .ok9-logo {
-    margin-top: 10px;
+    margin: 20px auto 15px;
   }
 
   .category-button {
@@ -452,7 +453,7 @@ ok9 footer
   }
 
   .logo-img-mobie {
-    width: 65%;
+    width: 100%;
   }
 
   .banner-mobie {
@@ -484,7 +485,7 @@ ok9 footer
 /* CSS */
 
 .ok9-logo a {
-  max-width: 310px;
+  max-width: 400px;
   width: 100%;
 }
 
