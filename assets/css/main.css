@@ -306,7 +306,8 @@ ok9 footer
   .icon-category-dl {
     padding: 10px;
     box-sizing: border-box;
-    margin-right: 2px;
+    margin-right: -4px;
+    margin-left: 0px;
   }
 
   .list-button-item {
@@ -372,7 +373,7 @@ ok9 footer
   }
 
   .content-category-button {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   /* .icon-list-button {
@@ -432,6 +433,10 @@ ok9 footer
   .content-category-button {
     font-size: 12px;
     padding-top: 4px;
+  }
+
+  .ok9-footer .content-category-button {
+    font-size: 10px !important;
   }
 
   .list-button-item {
